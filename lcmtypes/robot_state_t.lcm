@@ -1,0 +1,9 @@
+package robotlocomotion;
+
+struct robot_state_t
+{
+  int64_t utime;
+  int16_t num_joints;
+  string joint_name[num_joints];
+  float joint_position[num_joints];
+}
